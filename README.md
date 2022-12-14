@@ -1,7 +1,5 @@
 ![Fetch API](assets/fetch-api.png "Fetch API")
 
-## Fetch API
-
 The Fetch API provides a generic definition of ```Request``` and ```Response```
 objects (and other things involved with network requests). It also defines
 related concepts such as CORS and the HTTP Origin header semantics, supplanting
