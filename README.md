@@ -54,7 +54,7 @@ async function getMovies() {
     }
     // Parsing the reponse as JSON
     const data = await response.json();
-    // Printing the movies
+    // Printing movies. 'response' is an array of movie objects
     console.log(data.response);
   } catch(error) {
     console.log(error);
