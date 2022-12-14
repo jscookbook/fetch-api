@@ -4,8 +4,8 @@ The Fetch API provides a generic definition of ```Request``` and ```Response```
 objects (and other things involved with network requests). It also defines
 related concepts such as CORS and the HTTP Origin header semantics, supplanting
 their separate definitions elsewhere. Fetch returns a ```Promise```, an object
-represents the eventual completion (or failure) of an asynchronous operation
-and its resulting value.
+that represents the eventual completion (or failure) of an asynchronous
+operation and its resulting value.
 
 ### Asynchronous functions
 
@@ -23,8 +23,8 @@ The key features of ```async``` functions are:
   other code.
 - Exceptions are rejections, and rejections are exceptions; returns are
   resolutions, and fulfillments are results (that is, if you ```await``` a
-  promise, you see the promise's fulfillment value as the result of the ```await```
-  expression).
+  promise, you see the promise's fulfillment value as the result of the
+  ```await``` expression).
 
 ### Fetch API in action
 
